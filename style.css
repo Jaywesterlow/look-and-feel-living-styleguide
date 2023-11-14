@@ -13,11 +13,11 @@ body {
 
   font-family: sans-serif;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+  font-feature-settings: "kern" 1, "liga" on, "dlig" on;
   line-height: 1.5;
 
   color: DarkSlateGray;
-  background-color: silver;
+  background-color: #eae8e8;
 }
 
 body > * {
@@ -27,12 +27,19 @@ body > * {
 header {
   background-color: white;
   margin-bottom: 1rem;
-  color: silver;
+  color: red;
 }
 
 header > h1 {
   font-size: 1rem;
-  text-align: right;
+  text-align: left;
+}
+
+nav {
+  border-bottom: 2px solid white;
+  position: sticky;
+  top: 0;
+  background-color: #eae8e8;
 }
 
 nav li {
@@ -41,6 +48,9 @@ nav li {
 
 nav li a {
   text-decoration: none;
+  color: black;
+  border-right: 2px solid white;
+  padding-right: 10px;
 }
 
 nav a.active {
