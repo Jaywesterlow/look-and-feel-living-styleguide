@@ -97,17 +97,21 @@ pre {
 
 .typografie-avenirroman {
   font-family: "Avenirroman";
+  margin-bottom: 5px;
+  border-bottom: 2px solid grey;
+  color: black;
 }
 
 .typografie-avenirmedium {
   font-family: "Avenirmedium";
+  margin-bottom: 5px;
+  border-bottom: 2px solid grey;
+  color: black;
 }
 
 .typografie-avenirblack {
   font-family: "avenirblack";
-}
-
-li:not(:last-child) {
   margin-bottom: 5px;
   border-bottom: 2px solid grey;
+  color: black;
 }
