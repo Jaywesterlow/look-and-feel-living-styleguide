@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.25rem;
+    height: 100%;
+
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #ff0000;
+    border-radius: 1.25rem;
+}
+
+.color:nth-child(2) {
+    background-color: #fff;
+}
+
+.color:nth-child(3) {
+    background-color: #ccc;
+}
+
+.color:nth-child(4) {
+    background-color: #000;
+    color: #fff;
+}
