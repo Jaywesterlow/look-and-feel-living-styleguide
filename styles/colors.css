@@ -23,6 +23,16 @@
     }
 }
 
+.headerK {
+    font-size: 3rem;
+}
+
+.textK {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    width: 55%;
+}
+
 h2 {
     margin-top: 4rem;
 }
@@ -44,13 +54,12 @@ h2 {
     height: 6.25rem;
     background-color: var(--red);
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     border-radius: 1.25rem;
 }
 
 .color1:nth-child(2) {
     background-color: var(--white);
-    color: var(--black);
 }
 
 .color1:nth-child(3) {
@@ -59,6 +68,7 @@ h2 {
 
 .color1:nth-child(4) {
     background-color: var(--black);
+    color: var(--white);
 }
 
 .color2 {
