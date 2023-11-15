@@ -86,16 +86,4 @@ nav div.active {
     padding: 15px 0 15px 20px;
 }
 
-section {
-    display: none;
-    position: absolute;
-    top: 0;
-    top: 0;
-    left: 260px;
-    height: 100vh;
-    width: calc(100% - 260px);
-    background-color: var(--body-color);
-    transition: .5s;
-    padding: 12px 50px;
-}
 
