@@ -85,17 +85,3 @@ nav div.active {
     background-color: var(--accent-color-light);
     padding: 15px 0 15px 20px;
 }
-
-
-.tabcontent {
-    padding: 4em;
-    max-width: 65%;
-}
-
-.tabcontent h2 {
-    padding-bottom: 1em;
-}
-
-.tabcontent p {
-    padding-bottom: 2em;
-}
