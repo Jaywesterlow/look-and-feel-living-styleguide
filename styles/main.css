@@ -13,3 +13,32 @@
   src: url(../font/Avenir\ -black.ttf);
 }
 
+section {
+  display: none;
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 260px;
+  height: 100vh;
+  width: calc(100% - 260px);
+  background-color: var(--body-color);
+  transition: .5s;
+  padding: 12px 50px;
+}
+
+.tabcontent {
+  padding: 4em;
+  max-width: 65%;
+}
+
+.tabcontent h2 {
+  padding-bottom: 1em;
+}
+
+.tabcontent p {
+  padding-bottom: 2em;
+}
+
+.tabcontent img {
+  max-height: 200px;
+}
