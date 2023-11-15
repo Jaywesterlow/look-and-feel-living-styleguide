@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Living styleguide</title>
     <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles/colors.css" />
-
     <script src="./scripts/script.js"></script>
   </head>
   <body>
     <nav>
-      <img src="assets/images/oba.png" alt="" />
+      <img src="assets/images/obastyleguide.png" alt="oba logo" />
+
+      <div class="tablink" onclick="switchTab(event, 'globals')">
+        Globals
+        <i class="bx bxs-right-arrow"></i>
+      </div>
 
       <div class="tablink" onclick="switchTab(event, 'globals')">
         Globals
@@ -93,7 +98,16 @@
 
     <section id="logos" class="tabcontent">logo's</section>
 
-    <section id="icons" class="tabcontent">icons</section>
+    <section id="icons" class="tabcontent">
+      <p>
+        Oba maakt gebruik van verschillende iconen, de voornaamste die gebruikt
+        worden over de hele website zijn de pijltjes die naar iets verwijzen.
+        Dit laat zien dat je op een link, of iets dergelijks kunt klikken.
+        <br /><br />Verder gebruiken ze op de homepagina normale<br />
+        emoji's om de tekst te ondersteunen.
+      </p>
+      <img src="assets/pijltjesiconen.png" alt="icons" />
+    </section>
 
     <section id="components" class="tabcontent">components</section>
   </body>
