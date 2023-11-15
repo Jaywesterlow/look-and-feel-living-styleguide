@@ -1,99 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Living styleguide</title>
-    <link rel="stylesheet" href="./styles/nav.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/styles/colors.css">
-
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script src="./scripts/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <img src="assets/images/obastyleguide.png" alt="oba logo">
-        
-        <div class="tablink" onclick="switchTab(event, 'globals')">
-            Globals
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <img src="assets/images/obastyleguide.png" alt="oba logo" />
 
-        <div class="tablink" onclick="switchTab(event, 'typografie')">
-            Typografie
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <div class="tablink" onclick="switchTab(event, 'globals')">
+        Globals
+        <i class="bx bxs-right-arrow"></i>
+      </div>
 
         <div class="tablink" onclick="switchTab(event, 'kleuren')">
-            kleuren
+            Kleuren
             <i class='bx bxs-right-arrow'></i>
         </div>
 
-        <div class="tablink" onclick="switchTab(event, 'buttons')">
-            Buttons
-            <i class='bx bxs-right-arrow'></i>
-        </div>
-        <div class="tablink" onclick="switchTab(event, 'images')">
-            Images
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <div class="tablink" onclick="switchTab(event, 'typografie')">
+        Typografie
+        <i class="bx bxs-right-arrow"></i>
+      </div>
 
-        <div class="tablink" onclick="switchTab(event, 'logos')">
-            Logos
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <div class="tablink" onclick="switchTab(event, 'kleuren')">
+        kleuren
+        <i class="bx bxs-right-arrow"></i>
+      </div>
 
-        <div class="tablink" onclick="switchTab(event, 'icons')">
-            Icons
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <div class="tablink" onclick="switchTab(event, 'buttons')">
+        Buttons
+        <i class="bx bxs-right-arrow"></i>
+      </div>
+      <div class="tablink" onclick="switchTab(event, 'images')">
+        Images
+        <i class="bx bxs-right-arrow"></i>
+      </div>
 
-        <div class="tablink" onclick="switchTab(event, 'components')">
-            Components
-            <i class='bx bxs-right-arrow'></i>
-        </div>
+      <div class="tablink" onclick="switchTab(event, 'logos')">
+        Logos
+        <i class="bx bxs-right-arrow"></i>
+      </div>
+
+      <div class="tablink" onclick="switchTab(event, 'icons')">
+        Icons
+        <i class="bx bxs-right-arrow"></i>
+      </div>
+
+      <div class="tablink" onclick="switchTab(event, 'components')">
+        Components
+        <i class="bx bxs-right-arrow"></i>
+      </div>
     </nav>
 
-    <section id="globals" class="tabcontent">
-        Globals
-    </section>
+    <section id="globals" class="tabcontent">Globals</section>
     <section id="typografie" class="tabcontent">
-        Typografie
+      <h2 id="typografie">Typografie</h2>
+      <ul class="typografie-list">
+        <li class="typografie-avenirroman">
+          Avenir Roman: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </li>
+
+        <li class="typografie-avenirmedium">
+          Avenir Medium: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </li>
+
+        <li class="typografie-avenirblack">
+          Avenir Black: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </li>
+      </ul>
     </section>
 
     <section id="kleuren" class="tabcontent">
-        <div class="container">
-          <div class="color">#FF0000</div>
-          <div class="color">#FFFFFF</div>
-          <div class="color">#CCCCCC</div>
-          <div class="color">#000000</div>
-        </div>
+      <div class="container">
+        <div class="color">#FF0000</div>
+        <div class="color">#FFFFFF</div>
+        <div class="color">#CCCCCC</div>
+        <div class="color">#000000</div>
+      </div>
     </section>
 
-    <section id="buttons" class="tabcontent">
-        buttons
-    </section>
+    <section id="buttons" class="tabcontent">buttons</section>
 
-    <section id="images" class="tabcontent">
-        images
-    </section>
+    <section id="images" class="tabcontent">images</section>
 
-    <section id="logos" class="tabcontent">
-        logo's
-    </section>
-    
+    <section id="logos" class="tabcontent">logo's</section>
+
     <section id="icons" class="tabcontent">
+        <h2>Icons</h2>
         <p>Oba maakt gebruik van verschillende iconen, de voornaamste die 
             gebruikt worden over de hele website zijn de pijltjes die naar iets 
             verwijzen. Dit laat zien dat je op een link, of iets dergelijks 
             kunt klikken.
-          <br><br>Verder gebruiken ze op de homepagina normale<br>
+          <br><br>Verder gebruiken ze op de homepagina normale
           emoji's om de tekst te ondersteunen.</p>
-          <img src="assets/pijltjesiconen.png" alt="icons">
+          <img src="assets/pijltjesiconen.png" alt="arrow icons">
+          <img src="assets/iconenhomepagina2023-11-14 om 15.46.10.png" alt="homepage icons">
     </section>
-    
-    <section id="components" class="tabcontent">
-      
-    </section>
-</body>
+
+    <section id="components" class="tabcontent">components</section>
+  </body>
 </html>
