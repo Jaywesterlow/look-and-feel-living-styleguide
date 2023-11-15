@@ -48,6 +48,7 @@ nav {
     border: var(--border);
     border-width: 0 0 .1rem 0;
     box-shadow: var(--box-shadow);
+    position: fixed;
 }
 
 nav img:nth-child(1) {
@@ -84,22 +85,4 @@ nav div:hover {
 nav div.active {
     background-color: var(--accent-color-light);
     padding: 15px 0 15px 20px;
-}
-
-
-.tabcontent {
-    padding: 4em;
-    max-width: 65%;
-}
-
-.tabcontent h2 {
-    padding-bottom: 1em;
-}
-
-.tabcontent p {
-    padding-bottom: 2em;
-}
-
-.tabcontent img {
-    max-height: 200px;
 }
