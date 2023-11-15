@@ -87,3 +87,19 @@ nav div.active {
 }
 
 
+.tabcontent {
+    padding: 4em;
+    max-width: 65%;
+}
+
+.tabcontent h2 {
+    padding-bottom: 1em;
+}
+
+.tabcontent p {
+    padding-bottom: 2em;
+}
+
+.tabcontent img {
+    max-height: 200px;
+}
