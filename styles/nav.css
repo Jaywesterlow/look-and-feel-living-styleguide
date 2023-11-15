@@ -48,7 +48,7 @@ nav {
     border: var(--border);
     border-width: 0 0 .1rem 0;
     box-shadow: var(--box-shadow);
-    position: fixed;
+    overflow-y: scroll;
 }
 
 nav img:nth-child(1) {
