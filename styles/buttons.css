@@ -9,11 +9,9 @@
   
   .buttons-zwart:hover{
     background-color: #414141;
-  
   }
   
   .buttons-wit{
-
     /* style */
     display: block;
     width: 4em;
@@ -31,8 +29,8 @@
     color: #ffff;
     text-decoration: none;
     border-radius: 4px;
-   padding: 4px 4px 4px 4px;
-  }
+    padding: 4px 4px 4px 4px;
+  }    
   
   .buttons-cookies:hover{
     background-color: #ca0505; /*Iets donnkerder rood*/
