@@ -13,7 +13,7 @@ function switchTab(evt, tabName) {
 };
 
 function standardTab() {
-    let standard = document.getElementById('lettertype');
+    let standard = document.getElementById('globals');
     standard.style.display = "block";
     standard.className += " active";
 }
