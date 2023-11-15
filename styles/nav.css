@@ -48,11 +48,13 @@ nav {
     border: var(--border);
     border-width: 0 0 .1rem 0;
     box-shadow: var(--box-shadow);
+    position: fixed;
+    overflow: hidden;
 }
 
 nav img:nth-child(1) {
     width: 130px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 nav div {
@@ -61,7 +63,7 @@ nav div {
     transition: .3s ease;
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -71,31 +73,25 @@ nav div:not(:first-child) {
 }
 
 nav div i {
-    font-size: 1rem;
+    font-size: .7rem;
     margin-left: 4px;
 }
 
 nav div:hover {
-    background-color: var(--body-color);
+    background-color: var(--accent-color);
     transition: .3s ease;
     padding: 15px 0 15px 20px;
 }
 
 nav div.active {
-    background-color: var(--accent-color-light);
+    background-color: var(--body-color);
     padding: 15px 0 15px 20px;
 }
 
-section {
-    display: none;
-    position: absolute;
-    top: 0;
-    top: 0;
-    left: 260px;
-    height: 100vh;
-    width: calc(100% - 260px);
-    background-color: var(--body-color);
-    transition: .5s;
-    padding: 12px 50px;
+.tablink:hover {
+    color: var(--primary-color);
 }
 
+.tablink.active {
+    color: var(--selection-color);
+}

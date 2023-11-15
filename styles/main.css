@@ -13,3 +13,23 @@
   src: url(../font/Avenir\ -black.ttf);
 }
 
+section {
+  display: none;
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 260px;
+  height: 100vh;
+  max-width: 65%;
+  background-color: var(--body-color);
+  transition: .5s;
+  padding: 4em;
+}
+
+section h2 {
+  padding-bottom: 1em;
+}
+
+section p {
+  padding-bottom: 2em;
+}
