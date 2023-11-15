@@ -84,7 +84,7 @@ nav div:hover {
 }
 
 nav div.active {
-    background-color: var(--accent-color);
+    background-color: var(--body-color);
     padding: 15px 0 15px 20px;
 }
 
@@ -93,5 +93,5 @@ nav div.active {
 }
 
 .tablink.active {
-    color: var(--primary-color);
+    color: var(--selection-color);
 }
