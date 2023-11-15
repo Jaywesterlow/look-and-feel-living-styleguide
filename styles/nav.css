@@ -49,11 +49,12 @@ nav {
     border-width: 0 0 .1rem 0;
     box-shadow: var(--box-shadow);
     position: fixed;
+    overflow: scroll;
 }
 
 nav img:nth-child(1) {
     width: 130px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 nav div {
