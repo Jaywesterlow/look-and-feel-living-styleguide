@@ -1,0 +1,78 @@
+.typografie-details-list {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.typografie-avenirroman {
+  font-family: "AvenirRoman";
+  font-size: 0.9231rem;
+}
+
+.typografie-avenirmedium {
+  font-family: "AvenirMedium";
+  font-size: 0.9231rem;
+}
+
+.typografie-avenirblack {
+  font-family: "AvenirBlack";
+  font-size: 0.9231rem;
+}
+
+#typografie-h2 {
+  font-family: "AvenirBlack";
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.typografie-details {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+#typografie-h3 {
+  font-family: "AvenirBlack";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.typografie-desktop-paragraaf {
+  max-width: 400px;
+  font-size: 0.9231rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.typografie-desktop-h2 {
+  max-width: 400px;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.typografie-desktop-h3 {
+  max-width: 400px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.typografie-desktop-h4 {
+  max-width: 400px;
+  font-size: 1.3462rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
