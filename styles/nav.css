@@ -77,12 +77,20 @@ nav div i {
 }
 
 nav div:hover {
-    background-color: var(--body-color);
+    background-color: var(--accent-color);
     transition: .3s ease;
     padding: 15px 0 15px 20px;
 }
 
 nav div.active {
-    background-color: var(--accent-color-light);
+    background-color: var(--accent-color);
     padding: 15px 0 15px 20px;
+}
+
+.tablink:hover {
+    color: var(--primary-color);
+}
+
+.tablink.active {
+    color: var(--primary-color);
 }
