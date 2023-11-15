@@ -1,33 +1,119 @@
-.basic-colors {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 1.25rem;
-    height: 100%;
+:root {
+    --red: #ff0000;
+    --white: #ffffff;
+    --grey: #cccccc;
+    --black: #000000;
 
+    --orangeRed: #ff561e;
+    --magenta: #a22a86;
+    --blue: #1370bd;
+    --seaGreen: #32a182;
+
+    --orange: #fda12b;
+    --deepPink: #fe2f7f;
+    --deepSkyBlue: #3c389e;
+    --darkSlateBlue: #31a3db;
+    --forestGreen: #54af45;
+    --yellowGreen: #b2cb42;
 }
 
-.color {
+@supports (color: color(display-p3 0 1 0)) {
+    :root {
+        --red: color(display-p3 1 0 0);
+    }
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.color1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 6.25rem;
     height: 6.25rem;
-    background-color: #ff0000;
+    background-color: var(--red);
+    text-align: center;
+    color: var(--white);
     border-radius: 1.25rem;
 }
 
-.color:nth-child(2) {
-    background-color: #fff;
+.color1:nth-child(2) {
+    background-color: var(--white);
+    color: var(--black);
 }
 
-.color:nth-child(3) {
-    background-color: #ccc;
+.color1:nth-child(3) {
+    background-color: var(--grey);
 }
 
-.color:nth-child(4) {
-    background-color: #000;
-    color: #fff;
+.color1:nth-child(4) {
+    background-color: var(--black);
+}
+
+.color2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: var(--orangeRed);
+    color: var(--white);
+    border-radius: 1.25rem;
+}
+
+.color2:nth-child(2) {
+    background-color: var(--magenta);
+}
+
+.color2:nth-child(3) {
+    background-color: var(--blue);
+}
+
+.color2:nth-child(4) {
+    background-color: var(--seaGreen);
+    color: var(--white);
+}
+
+.color3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 1.25rem;
+}
+
+.color3:nth-child(2) {
+    background-color: var(--deepPink);
+}
+
+.color3:nth-child(3) {
+    background-color: var(--deepSkyBlue);
+}
+
+.color3:nth-child(4) {
+    background-color: var(--darkSlateBlue);
+}
+
+.color3:nth-child(5) {
+    background-color: var(--forestGreen);
+}
+
+.color3:nth-child(6) {
+    background-color: var(--yellowGreen);
 }
