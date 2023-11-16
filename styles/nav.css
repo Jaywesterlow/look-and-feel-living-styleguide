@@ -80,7 +80,7 @@ nav button i {
 }
 
 nav button:hover {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     transition: .3s ease;
     padding: 15px 0 15px 20px;
 }
