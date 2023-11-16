@@ -345,13 +345,20 @@
         <img class="accordion" src="assets/accordion.png" alt="accordion" /> <br> <br>
 
         <br> <h3>Carousel</h3>
-        Daarnaast wordt er om door de boekenlijst heen te klikken
-        een carousel gebruikt.<br> <br>
+        Om door boeken heen te klikken wordt een carousel gebruikt. <br> <br>
         <h4>Code voorbeeld:</h4> 
-            &lt; h3 class=“toggler interactive” data-component=“bw.ui.foldable"&gt; <br>
-            &lt; button aria-expanded=“false” class=“default”&gt; &lt; /button &gt; <br>
-            &lt; span &gt; Zuid &lt; /span&gt; <br>
-            &lt; /h3 &gt; <br> <br>
+            &lt; div class=“biebcomponent regular section”&gt; <br>
+            &lt; div class=“scrollablelist centered”&gt; <br>
+            &lt; h3 onze nieuwste boeken &gt; &lt; /h3&gt; <br>
+            &lt; div class=“slidingnav fadeout” style=“margin-top:13px; height: 252px;” &gt; <br>
+            &lt; button class=“prev passive” disabled=“disabled” style=“top:103px;”&gt; Vorige &lt; /button &gt; <br>
+            &lt; button class=“next” style=“top: 103px;” &gt; Volgende &lt; /button &gt; <br>
+            &lt; ::after &gt; &lt; /div &gt; <br>
+            &lt; ul class=“plain grid-list narrow interactive sliding” data-component=“bw.ui.coverfix bw.ui.slidingitems2” data-heightcertain=“true” data-prev=“vorige” data-next=“volgende” style=“height: 252px;” &gt; <br>
+            &lt; li class=“current”  &gt; <br>
+            &lt; p class=“grid-title”  &gt; <br>
+            &lt; a href=“…” &gt; &lt; /a &gt; &lt; /p &gt; <br>
+            &lt; p class=“additional”  &gt; “ Natascha Kampusch” &lt; /p &gt; <br> <br>
       </p>
 
       <img class="carousel" src="assets/carousel 2023-11-15 om 11.29.33.png" alt="carousel" />
