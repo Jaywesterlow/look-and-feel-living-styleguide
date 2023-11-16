@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/typografie.css" />
     <link rel="stylesheet" href="./styles/iconen.css" />
     <link rel="stylesheet" href="./styles/forms.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -138,31 +139,32 @@
         gebruikt.
       </p>
       <br />
-      <ul class="typografie-details-list">
-        <li class="typografie-avenirroman">
+     
+        <p class="typografie-avenirroman">
           Avenir Roman: abcdefghijklmnopqrstuvwxyz
           <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        </li>
+        </p>
 
-        <li class="typografie-avenirmedium">
+        <p class="typografie-avenirmedium">
           Avenir Medium: abcdefghijklmnopqrstuvwxyz
           <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        </li>
+        </p>
 
-        <li class="typografie-avenirblack">
+        <p class="typografie-avenirblack">
           Avenir Black: abcdefghijklmnopqrstuvwxyz
           <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        </li>
+        </p>
       </ul>
-
+      <br>
       <h3 id="typografie-h3">Paragraaf &lt;p&gt;</h3>
-      <ul class="typografie-details-list">
-        <li class="typografie-details"><em>font-family: Avenir</em></li>
-        <li class="typografie-details"><em>font-size: 0.932 rem</em></li>
-        <li class="typografie-details"><em>font-weight: 400</em></li>
-        <li class="typografie-details"><em>line-height: 1.5</em></li>
-        <li class="typografie-details"><em>Tekst- en linkvoorbeeld:</em></li>
-        <li class="typografie-paragraaf">
+      <code><pre>
+        {font-family: Avenir;
+        font-size: 0.932rem;
+        font-weight: 400;
+        color: black;
+        line-height: 1.5;}</pre></code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <p class="typografie-paragraaf">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -171,47 +173,49 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."<br />
           <a class="paragraaf-link" href="">"Link Paragraaf"</a>
-        </li>
-      </ul>
-
+        </p>
+      
+      <br>
       <h3 id="typografie-h3">&lt;H2&gt;</h3>
-      <ul class="typografie-details-list">
-        <li class="typografie-details"><em>font-family: Avenir</em></li>
-        <li class="typografie-details"><em>font-size: 2.25 rem</em></li>
-        <li class="typografie-details"><em>font-weight: 700</em></li>
-        <li class="typografie-details"><em>line-height: 1.5</em></li>
-        <li class="typografie-details"><em>Tekst- en linkvoorbeeld:</em></li>
-        <li class="typografie-desktop-h2">
+      <code><pre>
+        {font-family: Avenir;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}</pre></code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h2 class="typografie-desktop-h2">
           "Heading 2"<br />
           <a class="h2-link" href="">"Link Heading 2"</a>
-        </li>
-      </ul>
-
+        </h2>
+        <br>
       <h3 id="typografie-h3">&lt;H3&gt;</h3>
-      <ul class="typografie-details-list">
-        <li class="typografie-details"><em>font-family: Avenir</em></li>
-        <li class="typografie-details"><em>font-size: 2rem</em></li>
-        <li class="typografie-details"><em>font-weight: 700</em></li>
-        <li class="typografie-details"><em>line-height: 1.5</em></li>
-        <li class="typografie-details"><em>Tekst- en linkvoorbeeld:</em></li>
-        <li class="typografie-desktop-h3">
+        <code><pre>
+        {font-family: Avenir;
+        font-size: 2rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}</pre></code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h3 class="typografie-desktop-h3">
           "Heading 3"<br />
           <a class="h3-link" href="">"Link Heading 3"</a>
-        </li>
-      </ul>
-
+        </h3>
+      
+        <br>
       <h3 id="typografie-h3">&lt;H4&gt;</h3>
-      <ul class="typografie-details-list">
-        <li class="typografie-details"><em>font-family: Avenir</em></li>
-        <li class="typografie-details"><em>font-size: 1.3462rem</em></li>
-        <li class="typografie-details"><em>font-weight: 700</em></li>
-        <li class="typografie-details"><em>line-height: 1.5</em></li>
-        <li class="typografie-details"><em>Tekst- en linkvoorbeeld:</em></li>
-        <li class="typografie-desktop-h4">
+      <code><pre>
+        {font-family: Avenir;
+        font-size: 1.3462rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}</pre></code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h4 class="typografie-desktop-h4">
           "Heading 4"<br />
           <a class="h4-link" href="">"Link Heading 4"</a>
-        </li>
-      </ul>
+        </h4>
+      
     </section>
 
     <section id="kleuren" class="tabcontent">
@@ -257,7 +261,10 @@
         Oba gebruikt veel verschillende de knoppen. De standaard knoppen zijn
         zwart met witte tekst. Alle knoppen hebben een icon er naast.
       </p>
+      <h4>Code voorbeeld:</h4> 
+      &lt; button class="buttons-zwart"> Bekijk aanbod ▶ /buttons &gt <br> 
       <button class="buttons-zwart"> Bekijk aanbod ▶</button> <br/>
+      
       <p>
         Je hebt ook een aantal witte knoppen. Deze "vind" knop staat naast de
         zoek balk en is in dit geval wit. <br />
@@ -412,6 +419,8 @@
         wanneer je de website op je telefoon bekijkt.
       </p>
       <img src="assets/images/oba-layout2.png" alt="oba layout" width="500px" />
+      <h2>Afbeelding & tekst</h2>
+      <h3>Tablet</h3>
       <p>
         Er is nog een klein verschil tussen de layout van een tablet en telefoon
         als je kijkt naar afbeeldingen met tekts er naast.<br />
@@ -423,6 +432,7 @@
         alt="oba layout tablet"
         width="500px "
       />
+      <h3>Mobile</h3>
       <p>
         Bij een telefoon moet de tekts onder de afbeelding komen. De afbeelding
         mag dan ook wat groter worden weergegeven.
@@ -430,7 +440,7 @@
       <img
         src="assets/images/Oba-layout-mobile.png"
         alt="oba layout tablet"
-        width="400px"
+        width="400px" 
       />
     </section>
 
@@ -442,7 +452,8 @@
         Je wordt niet naar een andere site door gestuurd, hierdoor kan je de video stoppen om weer verder te scrollen op de website.
       </p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/4oM2Zs0c0Ik" frameborder="0" allowfullscreen></iframe>
+      <h4>Code voorbeeld:</h4> 
+      &lt; iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"> /iframe &gt; <br> 
     </section>
-  
   </body>
 </html>
