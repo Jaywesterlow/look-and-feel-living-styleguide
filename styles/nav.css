@@ -95,5 +95,5 @@ nav button.active {
 }
 
 .tablink.active {
-    color: var(--primary-color);
+    color: var(--selection-color);
 }
