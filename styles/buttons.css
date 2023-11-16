@@ -40,3 +40,6 @@
   .buttons-cookies:hover{
     background-color: #ca0505; /*Iets donnkerder rood*/
   }
+  p{
+    padding-bottom: 10px;
+  }
