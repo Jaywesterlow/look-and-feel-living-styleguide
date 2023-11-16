@@ -80,13 +80,13 @@ nav button i {
 }
 
 nav button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     transition: .3s ease;
     padding: 15px 0 15px 20px;
 }
 
 nav button.active {
-    background-color: var(--accent-color);
+    background-color: var(--body-color);
     padding: 15px 0 15px 20px;
 }
 
