@@ -1,8 +1,16 @@
 
 #forms img {
-    padding: 1em;
     margin: 1em 0 2em 0;
+    max-width: 50%;
 
-    max-width: 60%;
+}
+
+#correct {
+    padding: 1em;
     background-color: #B2CB42;
+}
+
+#false {
+    padding: 1em;
+    background-color: #FF0000;
 }
