@@ -1,7 +1,7 @@
 /* CODE VOOR DE OBA BUTTONS */
 .buttons-zwart{
     display: block;
-    width: 9em;
+    width: 10em;
     color:#ffff;
     background-color:#000000;
     text-decoration: none;
@@ -15,11 +15,14 @@
   .buttons-wit{
     /* style */
     display: block;
-    width: 4em;
+    width: 5em;
     background-color: #ffff;
     color: #000000;
     text-decoration: none;
-    padding:2px 3px 3px 5px
+    padding:2px 3px 3px 5px;
+    border: transparent;
+
+    
   }
   
   .buttons-wit:hover{
