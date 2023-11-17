@@ -91,7 +91,7 @@ nav button.active {
 }
 
 .tablink:hover {
-    /* color: black; */
+    color: rgb(255, 255, 255);
     background-color: var(--accent-color);
 }
 

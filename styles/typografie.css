@@ -136,7 +136,8 @@
 pre {
   background-color: darkslategray;
   color: rgb(188, 178, 125);
-  max-width: 400px;
+  min-width: 400px;
+  width: fit-content;
   padding: 10px;
   border-radius: 10px;
 }
