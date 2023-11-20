@@ -16,12 +16,12 @@
 }
 
 #correct {
-  padding: 1em;
+  padding: 0.5em;
   background-color: #b2cb42;
 }
 
 #false {
-  padding: 1em;
+  padding: 0.5em;
   background-color: #ff0000;
   float: right;
 }
