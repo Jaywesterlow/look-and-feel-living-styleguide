@@ -23,18 +23,12 @@
     }
 }
 
-.headerK {
-    font-size: 3rem;
-}
-
 .textK {
-    margin-top: 1rem;
     line-height: 1.5rem;
     width: 55%;
 }
 
-.container {
-    margin-top: 1rem;
+.colors-container {
     display: flex;
     align-items: center;
     flex-direction: row;

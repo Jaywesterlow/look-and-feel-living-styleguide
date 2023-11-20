@@ -1,13 +1,20 @@
 .typografie-avenirroman {
   font-family: "AvenirRoman";
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .typografie-avenirmedium {
   font-family: "AvenirMedium";
+  line-height: 1.5;
 }
 
 .typografie-avenirblack {
   font-family: "AvenirBlack";
+  line-height: 1.5;
 }
 
 #typografie-h3 {
@@ -18,7 +25,6 @@
 }
 
 .typografie-paragraaf {
-  max-width: 400px;
   font-size: 0.9231rem;
   font-weight: 400;
   line-height: 1.5;
@@ -29,7 +35,6 @@
 }
 
 .typografie-desktop-h2 {
-  max-width: 400px;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.5;
@@ -40,7 +45,6 @@
 }
 
 .typografie-desktop-h3 {
-  max-width: 400px;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
@@ -51,7 +55,6 @@
 }
 
 .typografie-desktop-h4 {
-  max-width: 400px;
   font-size: 1.3462rem;
   font-weight: 700;
   line-height: 1.5;
@@ -62,7 +65,6 @@
 }
 
 .h4-link {
-  max-width: 400px;
   font-size: 1.3462rem;
   font-weight: 700;
   line-height: 1.5;
@@ -71,7 +73,6 @@
 }
 
 .h4-link:hover {
-  max-width: 400px;
   font-size: 1.3462rem;
   font-weight: 700;
   line-height: 1.5;
@@ -80,7 +81,6 @@
 }
 
 .h3-link {
-  max-width: 400px;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
@@ -89,7 +89,6 @@
 }
 
 .h3-link:hover {
-  max-width: 400px;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
@@ -98,7 +97,6 @@
 }
 
 .h2-link {
-  max-width: 400px;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.5;
@@ -107,7 +105,6 @@
 }
 
 .h2-link:hover {
-  max-width: 400px;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.5;
@@ -116,7 +113,6 @@
 }
 
 .paragraaf-link {
-  max-width: 400px;
   font-size: 0.9231rem;
   font-weight: 400;
   line-height: 1.5;
@@ -125,7 +121,6 @@
 }
 
 .paragraaf-link:hover {
-  max-width: 400px;
   font-size: 0.9231rem;
   font-weight: 400;
   line-height: 1.5;
@@ -136,7 +131,8 @@
 pre {
   background-color: darkslategray;
   color: rgb(188, 178, 125);
-  max-width: 400px;
+  min-width: 400px;
+  width: fit-content;
   padding: 10px;
   border-radius: 10px;
 }
