@@ -1,30 +1,27 @@
-
 #forms {
-    display: none;
-    position: absolute;
-    top: 0;
-    top: 0;
-    left: 260px;
-    height: 155vh;
-    max-width: 65%;
-    background-color: var(--body-color);
-    transition: .5s;
-    padding: 4em;
+  display: none;
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 260px;
+  height: 155vh;
+  background-color: var(--body-color);
+  transition: 0.5s;
+  padding: 4em;
 }
 
 #forms img {
-    margin: 1em 0 2em 0;
-    max-width: 49%;
-
+  margin: 1em 0 2em 0;
+  max-width: 49%;
 }
 
 #correct {
-    padding: 1em;
-    background-color: #B2CB42;
+  padding: 0.5em;
+  background-color: #b2cb42;
 }
 
 #false {
-    padding: 1em;
-    background-color: #FF0000;
-    float: right;
+  padding: 0.5em;
+  background-color: #ff0000;
+  float: right;
 }
