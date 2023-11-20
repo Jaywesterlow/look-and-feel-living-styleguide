@@ -13,43 +13,42 @@
   src: url(../font/Avenir\ -black.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --body-color: #E4E9F7;
-    --primary-color: #FFF;
-    --accent-color: #FF0000;
-    --accent-color-light: #F6F5FF;
-    --text-color: #707070;
-    --selection-color: #000;
+  --body-color: #e4e9f7;
+  --primary-color: #fff;
+  --accent-color: #ff0000;
+  --accent-color-light: #f6f5ff;
+  --text-color: #707070;
+  --selection-color: #000;
 
-    --border: .1rem solid rgba(0,0,0,.1);
-    --border-hover: .1rem solid var(--black);
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); 
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --border-hover: 0.1rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Avenir-roman', 'Montserrat', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir-roman", "Montserrat", "Poppins", sans-serif;
 }
 
-body{
-    min-height: 100vh;
-    background-color: var(--body-color);
+body {
+  min-height: 100vh;
+  background-color: var(--body-color);
 }
 
-::selection{
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+::selection {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 section {
@@ -59,12 +58,12 @@ section {
   top: 0;
   left: 260px;
   min-height: 100vh;
-  max-width: 65%;
+  max-width: 35em;
   background-color: var(--body-color);
-  transition: .5s;
+  transition: 0.5s;
   padding: 4em;
 }
 
 section h2 {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
