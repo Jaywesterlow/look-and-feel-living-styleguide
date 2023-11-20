@@ -3,10 +3,6 @@
   line-height: 1.5;
 }
 
-p {
-  line-height: 1.5;
-}
-
 .typografie-avenirmedium {
   font-family: "AvenirMedium";
   line-height: 1.5;
@@ -126,14 +122,4 @@ p {
   line-height: 1.5;
   font-family: "AvenirRoman";
   color: red;
-}
-
-pre {
-  background-color: darkslategray;
-  color: rgb(188, 178, 125);
-  min-width: 400px;
-  width: fit-content;
-  padding: 10px;
-  border-radius: 10px;
-  line-height: 1.5;
 }
