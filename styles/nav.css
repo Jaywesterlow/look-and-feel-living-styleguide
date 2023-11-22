@@ -1,100 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-:root {
-    --body-color: #E4E9F7;
-    --primary-color: #FFF;
-    --accent-color: #FF0000;
-    --accent-color-light: #F6F5FF;
-    --text-color: #707070;
-    --selection-color: #000;
-
-    --border: .1rem solid rgba(0,0,0,.1);
-    --border-hover: .1rem solid var(--black);
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); 
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', 'Poppins', sans-serif;
-}
-
-body{
-    min-height: 100vh;
-    background-color: var(--body-color);
-}
-
-::selection{
-    background-color: var(--accent-color);
-    color: var(--primary-color);
-}
-
 nav {
-    background-color: var(--primary-color);
-    height: 100vh;
-    width: 260px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: var(--border);
-    border-width: 0 0 .1rem 0;
-    box-shadow: var(--box-shadow);
-    position: fixed;
-    overflow: hidden;
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 260px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: var(--border);
+  border-width: 0 0 0.1rem 0;
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  overflow: hidden;
 }
 
 nav img:nth-child(1) {
-    width: 130px;
-    margin-bottom: 2rem;
+  width: 130px;
+  margin-bottom: 2rem;
 }
 
 nav button {
-    width: 100%;
-    padding: 15px 10px;
-    transition: .3s ease;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    background-color: var(--primary-color);
+  width: 100%;
+  padding: 15px 10px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
 }
 
 nav button:not(:first-child) {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 nav button i {
-    font-size: .7rem;
-    margin-left: 4px;
+  font-size: 0.7rem;
+  margin-left: 4px;
 }
 
 nav button:hover {
-    background-color: var(--accent-color);
-    transition: .3s ease;
-    padding: 15px 0 15px 20px;
+  background-color: var(--accent-color);
+  transition: 0.3s ease;
+  padding: 15px 0 15px 20px;
 }
 
 nav button.active {
-    background-color: var(--body-color);
-    padding: 15px 0 15px 20px;
+  background-color: var(--body-color);
+  padding: 15px 0 15px 20px;
 }
 
 .tablink:hover {
-    color: rgb(255, 255, 255);
-    background-color: var(--accent-color);
+  color: rgb(255, 255, 255);
+  background-color: var(--accent-color);
 }
 
 .tablink.active {
-    color: var(--selection-color);
+  color: var(--selection-color);
 }
