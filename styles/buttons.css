@@ -10,6 +10,7 @@
   
   .buttons-zwart:hover{
     background-color: #414141;
+    cursor: pointer;
   }
   
   .buttons-wit{
@@ -27,6 +28,7 @@
   
   .buttons-wit:hover{
     background-color: #eeeded;
+    cursor: pointer;
   }
   
   .buttons-cookies{
@@ -39,6 +41,7 @@
   
   .buttons-cookies:hover{
     background-color: #ca0505; /*Iets donnkerder rood*/
+    cursor: pointer;
   }
   .p{
     padding-bottom: 10px;
