@@ -27,7 +27,24 @@
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
   --border-hover: 0.1rem solid var(--black);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+  --code-font:'Source Code Pro', monospace;
+  --primary-font:"Avenir-roman", "Montserrat", "Poppins", sans-serif; 
+
+ 
 }
+ /* --ws:1em;
+
+  --primary-font:"open sans";
+  --heading-font:"avenir" */
+
+/* button {
+  padding:var(--ws);
+}
+
+p {
+  padding:var(--ws);
+} */
 
 *,
 *::before,
@@ -38,7 +55,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Avenir-roman", "Montserrat", "Poppins", sans-serif;
+  font-family: var(--primary-font); 
 }
 
 body {
@@ -82,4 +99,9 @@ pre {
   padding: 10px;
   border-radius: 10px;
   line-height: 1.5;
+}
+
+code {
+  display:block;
+  font-family: var(--code-font); 
 }
